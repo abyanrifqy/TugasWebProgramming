@@ -1,0 +1,120 @@
+.navbar-brand{
+    font-family: Roboto;
+}
+
+.nav-link{
+    margin: 8px;
+    padding: 4px;
+}
+
+
+.jumbotron {
+    background-image: url(bgHeader.jpg);
+    background-size: cover;
+    color: #ffffff;
+    height: 640px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    background-color: lightsteelblue;
+    background-blend-mode: multiply;
+    font-family: 'Poppins', sans-serif;}
+
+.jumbotron .display-4{
+    margin-top: 20%;
+    font-weight: 200;
+    text-align: center;
+}
+
+.jumbotron .display-4 span{
+    font-weight: 700;
+    color:#d7ad3b
+}
+
+.Overview{
+    text-align: center;
+    
+}
+
+.col-md .Overview{
+    text-align: center;
+}
+
+.col-md .Deskripsi{
+    text-align: justify;
+    padding-top: 4%;
+}
+
+.Seleksi .container{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.container .Admissions{
+    margin-top: 40px;
+    
+}
+
+.Keahlian .container{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.footer{
+    text-align: center;
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    background-color: #203166;
+    color:white;
+}
+
+.footer p{
+    padding-top: 8px;
+}
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+
+    .navbar {
+        margin:0 8%;
+    }
+
+    .nav-link:hover::after .nav-link a {
+        content: '';
+        display: block;
+        color: lightyellow !important;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 4px;
+        margin-bottom: -8px;
+        background-color: 2px 2px 2px rgba(0, 0, 0, 1);    
+    }
+
+    .navbar-brand {
+        color: #ffffff !important;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    }
+
+    .nav-link {
+        color: #000000 !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+        text-transform: uppercase;
+        
+    }
+
+    .jumbotron{
+        margin-top: -75px;
+    }
+
+    .col-md .Overview{
+        text-align: center;
+        padding-top: 30px;
+    }
+}
